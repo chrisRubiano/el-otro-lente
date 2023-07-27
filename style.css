@@ -1,0 +1,429 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Split the screen in half */
+
+body {
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+}
+
+.slides{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slides2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#convocatoria{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+#fechas{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.split {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: rgb(23, 23, 23);
+}
+.left2 {
+  left: 0;
+  background-color: rgb(23, 23, 23);
+}
+
+.titulos{
+  width: fit-content;
+  text-align: start;
+  height: auto;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #ffffff ;
+  margin: 0;
+}
+
+.titulos2{
+  width:fit-content;
+  text-align: start;
+  height: auto;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #ffffff ;
+  margin: 0;
+}
+
+.parrafos{
+  text-align: start;
+  line-height: 1.15em;
+}
+
+.parrafos2{
+  text-align: start;
+  line-height: 1.5em;
+}
+
+.subtitulos{
+  text-align: center;
+  color: rgb(139, 177, 180);
+}
+
+.right {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(imgs/perrooscuro.jpg);
+  height: 100%;
+  background-size:cover;
+}
+
+.right2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(imgs/arbolperro.jpeg);
+  height: 100%;
+  background-size:cover;
+  background-position: center;
+}
+
+.centered {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.centered2 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.centered img {
+  width: 300px;
+}
+
+
+#convocatoria {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(94, 114, 133);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 11;
+  }
+
+.centered-text {
+   text-align: center;
+}
+
+.section-content p {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button.rounded-button {
+  padding: 1em 2em;
+  border: 2px solid rgb(242, 242, 237);
+  border-radius: 25px;
+  background-color: transparent;
+  color: rgb(242, 242, 237);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#exhibicion {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(125, 133, 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 11;
+  }
+
+.section-content p {
+ margin-left: 15%;
+ margin-right: 15%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+button.rounded-button {
+ padding: 1em 2em;
+ border: 2px solid rgb(242, 242, 237);
+ border-radius: 25px;
+ background-color: transparent;
+ color: rgb(242, 242, 237);
+ font-size: 16px;
+ cursor: pointer;
+}
+
+.button-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.square-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: transparent;
+  flex-direction: row;
+}
+
+.square {
+  width: 125px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: rgb(242, 242, 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  margin: 10px;
+}
+
+
+
+.motto {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#cover {
+  background-image: url('imgs/cover.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logokolab {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 220px;
+}
+
+.logolente {
+  width: 400px;
+}
+
+.logo-figuras {
+  width: 120px;
+}
+
+.artedecompartir {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+
+.logo-figuras {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  z-index: 11;
+}
+
+
+/* Start Nav Styles */
+.navbar {
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+}
+.navbar .nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.navbar .nav-menu li {
+  position: relative;
+  min-width: 200px;
+  text-align: right;
+}
+.navbar .nav-menu li .dot {
+  display: block;
+  color: #fff;
+  padding: 5px 0;
+}
+.navbar .nav-menu li .dot::before,
+.navbar .nav-menu li .dot::after {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 50%;  
+  top: 50%;  
+  transition: all .3s ease;
+}
+.navbar .nav-menu li .dot::before {
+  width: 5px;
+  height: 5px;
+  right: 0;
+  border: 2px solid #f2f2ed;
+  transform: translateY(-50%);
+}
+.navbar .nav-menu li .dot::after {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #f2f2ed;
+  right: -5px;
+  transform: translateY(-50%) scale(0);
+}
+.navbar .nav-menu li .dot.active::before,
+.navbar .nav-menu li:hover .dot::before {
+  background: #f2f2ed;
+  border-color: transparent;
+}
+.navbar .nav-menu li .dot.active::after,
+.navbar .nav-menu li:hover .dot::after {
+  transform: translateY(-50%) scale(1);  
+}
+.navbar .nav-menu li .dot span {
+  display: inline-block;
+  opacity: 0;
+  font-weight: 700;
+  letter-spacing: .5px;
+  text-transform: capitalize;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-right: 30px;
+  transform: translateX(20px);
+  transition: all .3s ease;
+}
+.navbar .nav-menu li .dot span::before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  top: 50%;
+  transform: translate(7px, -50%);
+  right: 0;
+  transition: all .3s ease;
+}
+.navbar .nav-menu li .dot.active span,
+.navbar .nav-menu li:hover .dot span {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+
+.menu-bg {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: linear-gradient(to right, transparent, #000 120%);
+  width: 12vw;
+  z-index: 10;
+}
+
+/* End Nav Styles */
+
+
