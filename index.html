@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox/basicLightbox.min.css">
 </head>
 <body>
 <main>
@@ -292,22 +293,15 @@
 </section>
 <section class="gallery">
   <div class="lightboxgallery">
-    <div class="img-container"><img class="primeraimagen" src="imgs/cover.jpg" alt=""></div>
-    <div class="img-container"><img class="segundaimagen" src="imgs/perro.jpg" alt=""></div>
-    <div class="img-container"><img src="imgs/cactus.jpg" alt=""></div>
-    <div class="img-container"><img src="imgs/perro.jpg" alt=""></div>
-    <div class="img-container"><img class="" src="imgs/cover.jpg" alt=""></div>
-    <div class="img-container"><img class="" src="imgs/perro.jpg" alt=""></div>
-    <div class="img-container"><img src="imgs/cactus.jpg" alt=""></div>
-    <div class="img-container"><img src="imgs/perro.jpg" alt=""></div>
-    <div class="img-container"><img class="" src="imgs/cover.jpg" alt=""></div>
-    <div class="img-container"><img class="" src="imgs/perro.jpg" alt=""></div>
-    <div class="img-container"><img src="imgs/cactus.jpg" alt=""></div>
-    <div class="img-container"><img src="imgs/perro.jpg" alt=""></div>
-    <div class="img-container"><img class="" src="imgs/cover.jpg" alt=""></div>
-    <div class="img-container"><img class="" src="imgs/perro.jpg" alt=""></div>
-    <div class="img-container"><img src="imgs/cactus.jpg" alt=""></div>
-    <div class="img-container"><img src="imgs/perro.jpg" alt=""></div>
+    <div class="img-container primeraimagen"><img src="imgs/cover.jpg" alt=""></div>
+    <div class="img-container segundaimagen"><img src="imgs/cover.jpg" alt=""></div>
+    <div class="img-container terceraimagen"><img src="imgs/cover.jpg" alt=""></div>
+    <div class="img-container cuartaimagen"><img src="imgs/cover.jpg" alt=""></div>
+
+    <div class="img-container segundaimagen"><img src="imgs/cover.jpg" alt=""></div>
+    <div class="img-container primeraimagen"><img src="imgs/cover.jpg" alt=""></div>
+    <div class="img-container cuartaimagen"><img src="imgs/cover.jpg" alt=""></div>
+    <div class="img-container terceraimagen"><img src="imgs/cover.jpg" alt=""></div>
   </div>
 </section>
 <!--------------------------------------------------------------------------------------------------------------------->
@@ -374,6 +368,22 @@ document.querySelector('.segundaimagen').onclick = () => {
 
 basicLightbox.create(`
   <img width="1400" height="900" src="imgs/perro.jpg">
+`).show()
+
+}
+
+document.querySelector('.terceraimagen').onclick = () => {
+
+basicLightbox.create(`
+  <img width="1400" height="900" src="imgs/cactus.jpg">
+`).show()
+
+}
+
+document.querySelector('.cuartaimagen').onclick = () => {
+
+basicLightbox.create(`
+  <img width="1400" height="900" src="imgs/arbolperro.jpeg">
 `).show()
 
 }

@@ -534,6 +534,7 @@ button.rounded-button {
 }
 .lightboxgallery img {
   max-width: 100%;
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 600px) {
@@ -550,7 +551,33 @@ button.rounded-button {
   }
 }
 
+.primeraimagen {
+  background-image: url("imgs/cover.jpg");
+  background-size: cover;
+  background-position: center center;
+}
 
+.segundaimagen {
+  background-image: url("imgs/perro.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.terceraimagen {
+  background-image: url("imgs/cactus.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.cuartaimagen {
+  background-image: url("imgs/arbolperro.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.img-container:hover {
+  cursor: pointer;
+}
 
 /* KRIS */
 
