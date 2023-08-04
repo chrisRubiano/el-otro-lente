@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>El otro lente</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="lightbox/basicLightbox.min.css">
 </head>
@@ -25,7 +25,7 @@
     <ul class="nav-menu">
       <li>
         <a data-scroll="home" href="#cover" id="dintro" class="dot active">
-          <span>Incio</span>
+          <span>Inicio</span>
         </a>
       </li>
       <li>
@@ -48,13 +48,22 @@
           <span>Exhibición</span>
         </a>
       </li>
-      <li></li>
+      <li>
+        <a data-scroll="tips" href="#tips" id="dtrain" class="dot">
+          <span>Tips</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="galeria" href="#galeria" id="dtrain" class="dot">
+          <span>Galería</span>
+        </a>
+      </li>
     </ul>
   </nav>
   <section id="cover">
     <img src="imgs/kolabsideprojects.png" alt="logo kolab side projects" class="logokolab">
     <p class="motto">Reconociéndonos a través del otro</p>
-      <img src="imgs/KolabIco.png" style="height: 20px;" alt="logo kolab de figuras geométricas" class="logo-figuras">
+      <img src="imgs/KolabIco.png" alt="logo kolab de figuras geométricas" class="logo-figuras">
       <p class="artedecompartir">El arte de compartir</p>
       <img src="imgs/otrolente.png" alt="" class="logolente">
   </section>
@@ -102,7 +111,7 @@
             <p>Lo único que necesitas es <span style="color:rgb(139, 177, 180)">formar parte de EA, Parque La Ruina,
               Necodex o Paystand</span>, y cumplir con los siguientes requisitos:</p>
             <br>
-            <p>Inscribete a traves de <span style="color:rgb(139, 177, 180)">Google Forms</span>: Nombre, titutlo, descripción de la pieza y fotografía.</p>
+            <p>Inscribete a traves de <span style="color:rgb(139, 177, 180)">Google Forms</span>: Nombre, titulo, descripción de la pieza y fotografía.</p>
             <br>
             <p>Si utilizas un celular, asegurate de que la fotografía esté en<span style="color:rgb(139, 177, 180) ;"> formato 16:9 y tenga una resolución mínima de 150DPI.</span> </p>
             <br>
@@ -234,7 +243,7 @@
 </section>
 
 <!------------------------------------------------------------------------------------------------------------------>
-<section class="section3" id="como-entrar">
+<section class="section3" id="tips">
   <div class="slides" >
   <div class="split left">
       <div class="centered">
@@ -282,7 +291,7 @@
         <br>
         <h2>|</h2>
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare malesuada augue quis faucibus. Donec pulvinar tellus a velit tincidunt ultrices sed ut leo. Nunc eleifend diam et feugiat pellentesque.</p>
+        <p>Cuando estuve encerrado en casa, uno de mis escapes favoritos era tomar mi cámara y tomar fotos en mi patio y jardín. A pesar de ser un lugar que siempre está ahí, siempre hay algo que ver desde otra perspectiva, Esa noche había luna llena y era casi imposible dejar pasar la oportunidad de fotografiar su belleza y la tranquilidad que representa y dar un poco de contraste con las agresivas espinas de un San Pedro. Todo esto estando del otro lado de la cerca.</p>
         <br>
         <br>
         <p></p>
@@ -291,7 +300,7 @@
   </div>
   
 </section>
-<section class="gallery">
+<section id="galeria" class="gallery">
   <div class="lightboxgallery">
     <div class="img-container primeraimagen"><img src="imgs/cover.jpg" alt=""></div>
     <div class="img-container segundaimagen"><img src="imgs/cover.jpg" alt=""></div>
@@ -305,6 +314,8 @@
   </div>
 </section>
 <!--------------------------------------------------------------------------------------------------------------------->
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>

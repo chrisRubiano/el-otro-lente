@@ -123,7 +123,7 @@ h2, p, button, .parrafos, .parrafos2{
   }
 
   .motto{
-    margin-top: 15%;
+    /* margin-top: 15%; */
     text-align: center;
     }
 
@@ -165,6 +165,10 @@ h2, p, button, .parrafos, .parrafos2{
   text-align: start;
   line-height: 1.15em;
   padding: 20px;
+}
+
+.artedecompartir{
+  letter-spacing: 0.25em;
 }
 
 .parrafos2{
@@ -362,7 +366,7 @@ button.rounded-button {
   position: absolute;
   top: 40px;
   left: 40px;
-  width: 220px;
+  width: 200px;
 }
 
 .logolente {
@@ -408,7 +412,6 @@ button.rounded-button {
   .navbar{
     width: 30%;
   }
-  
 }
 
 .navbar {
@@ -417,6 +420,7 @@ button.rounded-button {
   top: 50%;
   right: 50px;
   transform: translateY(-50%);
+  font-family: FontOL;
 }
 .navbar .nav-menu {
   margin: 0;
@@ -508,6 +512,7 @@ button.rounded-button {
 
 /* End Nav Styles */
 
+
 /* KRIS */
 
 .gallery {
@@ -549,6 +554,28 @@ button.rounded-button {
   .img-container {
     height: 100px;
   }
+
+  /* código para acomodar las cosas de arriba */
+
+  .logokolab {
+    width: 120px;
+  }
+
+  .logo-figuras {
+    width: 40px;
+  }
+
+  .motto {
+    font-size: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+  .gallery {
+    padding: 8rem 18rem;
+  }
 }
 
 .primeraimagen {
@@ -579,5 +606,13 @@ button.rounded-button {
   cursor: pointer;
 }
 
-/* KRIS */
+.logokolab, .logo-figuras, .motto {
+  position: fixed;
+  z-index: 20;
+}
 
+.logo-figuras {
+  width: 70px;
+}
+
+/* KRIS */
