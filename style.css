@@ -114,7 +114,8 @@ h2, p, button, .parrafos, .parrafos2{
 
   .left, .left2{
     width: 100%;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .split.right, .split.right2, .split.right3{
@@ -127,6 +128,13 @@ h2, p, button, .parrafos, .parrafos2{
     text-align: center;
     }
 
+}
+
+@media (max-width: 750px){
+  .motto{
+    padding-top: 30px;
+  }
+  
 }
 
 .left {
@@ -189,7 +197,7 @@ h2, p, button, .parrafos, .parrafos2{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(imgs/perrooscuro.jpg);
+  background-image: url(imgs/comoentrarBG.jpg);
   height: 100%;
   background-size:cover;
 }
@@ -207,7 +215,7 @@ h2, p, button, .parrafos, .parrafos2{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(imgs/cactusoscuro.jpg);
+  background-image: url(imgs/tipsnuevaBG.jpg);
   height: 100%;
   background-size:cover;
   background-position: center;
@@ -342,7 +350,15 @@ button.rounded-button {
   margin: 10px;
 }
 
-
+.top-bg {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: linear-gradient(to top, transparent, #000 120%);
+  height: 12vh;
+  z-index: 12;
+}
 
 .motto {
   position: absolute;
@@ -352,7 +368,7 @@ button.rounded-button {
 }
 
 #cover {
-  background-image: url('imgs/cover.jpg');
+  background-image: url('imgs/cover.gif');
   background-position: center;
   background-size: cover;
   height: 100vh;
