@@ -148,8 +148,8 @@ h2, p, button, .parrafos, .parrafos2{
 
 
 .titulos{
-  width: fit-content;
-  text-align: start;
+  width: 50%;
+  text-align: center;
   height: auto;
   padding: 10px;
   border-radius: 25px;
@@ -158,8 +158,8 @@ h2, p, button, .parrafos, .parrafos2{
 }
 
 .titulos2{
-  width:fit-content;
-  text-align: start;
+  width:50%;
+  text-align: center;
   height: auto;
   padding: 10px;
   border-radius: 25px;
