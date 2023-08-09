@@ -364,7 +364,7 @@ button.rounded-button {
 
 .motto {
   position: absolute;
-  top: 40px;
+  top: 20px;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -382,8 +382,8 @@ button.rounded-button {
 
 .logokolab {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 20px;
+  left: 20px;
   width: 200px;
 }
 
@@ -395,15 +395,16 @@ button.rounded-button {
   writing-mode: vertical-lr;
   text-orientation: upright;
   position: absolute;
-  left: 40px;
-  top: 50%;
+  left: 20px;
+  top: 75%;
   transform: translate(0, -50%);
+  height: 100%;
 }
 
 .logo-figuras {
   position: absolute;
-  right: 40px;
-  top: 40px;
+  right: 20px;
+  top: 20px;
   z-index: 11;
 }
 
@@ -437,7 +438,7 @@ button.rounded-button {
   position: fixed;
   z-index: 999;
   top: 50%;
-  right: 50px;
+  right: 20px;
   transform: translateY(-50%);
   font-family: FontOL;
 }
@@ -661,5 +662,39 @@ button.rounded-button {
 #convocatoria p {
   font-size: 30px;
 }
+
+#cover {
+  height: 0;
+}
+
+#covervideo .logolente {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#covervideo {
+  height: 100vh;
+  position: relative;
+}
+
+video {
+  max-width: 100%;
+}
+/* Style the video: 100% width and height to cover the entire window */
+ /* video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+} */
+
+/* Add some content at the bottom of the video/page */
+/* .contenidoportada {
+  position: fixed;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+} */
 
 /* KRIS */
