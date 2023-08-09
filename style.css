@@ -535,6 +535,10 @@ button.rounded-button {
 
 /* KRIS */
 
+#convocatoria p {
+  font-size: 30px;
+}
+
 .gallery {
   display: flex;
   justify-content: center;
@@ -562,7 +566,7 @@ button.rounded-button {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
   .gallery {
     padding: 4rem;
@@ -573,6 +577,10 @@ button.rounded-button {
   }
   .img-container {
     height: 100px;
+  }
+
+  #convocatoria p {
+    font-size: 22px;
   }
 
   /* código para acomodar las cosas de arriba */
@@ -659,9 +667,7 @@ button.rounded-button {
   width: 70px;
 }
 
-#convocatoria p {
-  font-size: 30px;
-}
+
 
 #cover {
   height: 0;
@@ -675,26 +681,19 @@ button.rounded-button {
 }
 
 #covervideo {
-  height: 100vh;
-  position: relative;
+  display: flex;
 }
 
 video {
   max-width: 100%;
 }
-/* Style the video: 100% width and height to cover the entire window */
- /* video{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-} */
 
-/* Add some content at the bottom of the video/page */
-/* .contenidoportada {
-  position: fixed;
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-} */
+
+@media (min-width:800px) {
+  .lightboxgallery {
+    min-width: 800px;
+  }
+}
 
 /* KRIS */
+
