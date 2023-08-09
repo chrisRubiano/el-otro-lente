@@ -277,7 +277,7 @@ h2, p, button, .parrafos, .parrafos2{
   margin-bottom: 10px;
 }
 
-button.rounded-button {
+a.rounded-button {
   padding: 1em 2em;
   border: 2px solid rgb(242, 242, 237);
   border-radius: 25px;
@@ -285,6 +285,8 @@ button.rounded-button {
   color: rgb(242, 242, 237);
   font-size: 16px;
   cursor: pointer;
+  text-decoration: none;
+  font-family: FontOL;
 }
 
 .button-container {
@@ -394,7 +396,8 @@ button.rounded-button {
   text-orientation: upright;
   position: absolute;
   left: 40px;
-  bottom: 40px;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .logo-figuras {
@@ -534,7 +537,7 @@ button.rounded-button {
 .gallery {
   display: flex;
   justify-content: center;
-  padding: 10rem;
+  padding: 14rem;
 }
 
 .lightboxgallery {
@@ -590,30 +593,54 @@ button.rounded-button {
 @media only screen and (min-width: 1100px) {
 
   .gallery {
-    padding: 8rem 18rem;
+    padding: 8rem 32rem;
   }
 }
 
 .primeraimagen {
-  background-image: url("imgs/cover.jpg");
+  background-image: url("imgs/1thumb.png");
   background-size: cover;
   background-position: center center;
 }
 
 .segundaimagen {
-  background-image: url("imgs/perro.jpg");
+  background-image: url("imgs/2thumb.png");
   background-size: cover;
   background-position: center center;
 }
 
 .terceraimagen {
-  background-image: url("imgs/cactus.jpg");
+  background-image: url("imgs/3thumb.png");
   background-size: cover;
   background-position: center center;
 }
 
 .cuartaimagen {
-  background-image: url("imgs/arbolperro.jpeg");
+  background-image: url("imgs/4thumb.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.quintaimagen {
+  background-image: url("imgs/5thumb.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.sextaimagen {
+  background-image: url("imgs/6thumb.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.septimaimagen {
+  background-image: url("imgs/7thumb.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.octavaimagen {
+  background-image: url("imgs/8thumb.png");
   background-size: cover;
   background-position: center center;
 }
@@ -629,6 +656,10 @@ button.rounded-button {
 
 .logo-figuras {
   width: 70px;
+}
+
+#convocatoria p {
+  font-size: 30px;
 }
 
 /* KRIS */

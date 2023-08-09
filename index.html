@@ -79,7 +79,7 @@
           Esta actividad busca que conectes con tu lado artístico, al mismo tiempo que dejas una 
           huella de tu visión personal que se compartirá en los espacios del entorno laboral. 
         </p><br><br><br>
-        <button class="rounded-button">Aplica aquí.</button>
+        <button style="visibility: hidden;" class="rounded-button">Aplica aquí.</button>
   </div>
   <section class="section1" id="como-entrar">
     <div class="slides" >
@@ -95,7 +95,7 @@
             <p style="color:rgb(139, 177, 180) ;">Solo necesitas:</p> <br>
             <p>1. Formar parte de Kolab (Espacio Abierto y Parque La Ruina).</p>
             <br>
-            <p>2. Inscríbete a traves de este <span style="color:rgb(139, 177, 180)"></span> <a style="color:rgb(200, 115, 36) ;" href="https://docs.google.com/forms/d/e/1FAIpQLSdXo45sbwrLtZaRZgQLI_KYgxXfi6Y-stZ LRsIxD7Tsk0Gn8A/viewform">Google Forms</a>.</p>
+            <p>2. Inscríbete a traves de este <span style="color:rgb(139, 177, 180)"></span> <a style="color:rgb(200, 115, 36) ;" href="https://docs.google.com/forms/d/e/1FAIpQLSdXo45sbwrLtZaRZgQLI_KYgxXfi6Y-stZLRsIxD7Tsk0Gn8A/viewform">Google Forms</a>.</p>
             <br>
             <p>3. Compartir tu fotografía.</p>
             <br>
@@ -206,7 +206,7 @@
         </div>
     </section>
     <br>
-            <button class="rounded-button">Aplica aquí.</button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXo45sbwrLtZaRZgQLI_KYgxXfi6Y-stZLRsIxD7Tsk0Gn8A/viewform" class="rounded-button">Aplica aquí</a>
 </section>
 
 <!------------------------------------------------------------------------------------------------------------------>
@@ -247,7 +247,7 @@
           <p>Ejemplo:</p>
         </div>
         <br>
-        <button class="rounded-button">Aplica aquí.</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXo45sbwrLtZaRZgQLI_KYgxXfi6Y-stZLRsIxD7Tsk0Gn8A/viewform" class="rounded-button">Aplica aquí</a>
         <br>
       </div>
   </div>
@@ -259,7 +259,7 @@
         <br>
         <h2>|</h2>
         <br>
-        <p></p>
+        <p>la danza electrizante entre pasado y futuro cobra vida canalizandose en una bobina de Tesla, tejiendo un vínculo entre la ciencia y el misterio,  donde la punta de los dedos alcanza un reino iluminado</p>
         <br>
         <br>
         <p></p>
@@ -270,15 +270,15 @@
 </section>
 <section id="galeria" class="gallery">
   <div class="lightboxgallery">
-    <div class="img-container primeraimagen"><img src="imgs/cover.jpg" alt=""></div>
-    <div class="img-container segundaimagen"><img src="imgs/cover.jpg" alt=""></div>
-    <div class="img-container terceraimagen"><img src="imgs/cover.jpg" alt=""></div>
-    <div class="img-container cuartaimagen"><img src="imgs/cover.jpg" alt=""></div>
+    <div class="img-container primeraimagen"><img src="imgs/1thumb.png" alt=""></div>
+    <div class="img-container segundaimagen"><img src="imgs/2thumb.png" alt=""></div>
+    <div class="img-container terceraimagen"><img src="imgs/3thumb.png" alt=""></div>
+    <div class="img-container cuartaimagen"><img src="imgs/4thumb.png" alt=""></div>
 
-    <div class="img-container segundaimagen"><img src="imgs/cover.jpg" alt=""></div>
-    <div class="img-container primeraimagen"><img src="imgs/cover.jpg" alt=""></div>
-    <div class="img-container cuartaimagen"><img src="imgs/cover.jpg" alt=""></div>
-    <div class="img-container terceraimagen"><img src="imgs/cover.jpg" alt=""></div>
+    <div class="img-container quintaimagen"><img src="imgs/5thumb.png" alt=""></div>
+    <div class="img-container sextaimagen"><img src="imgs/6thumb.png" alt=""></div>
+    <div class="img-container septimaimagen"><img src="imgs/7thumb.png" alt=""></div>
+    <div class="img-container octavaimagen"><img src="imgs/8thumb.png" alt=""></div>
   </div>
 </section>
 <!--------------------------------------------------------------------------------------------------------------------->
@@ -338,7 +338,7 @@
   document.querySelector('.primeraimagen').onclick = () => {
 
 basicLightbox.create(`
-  <img width="1400" height="900" src="imgs/cover.jpg">
+  <img width="1400" height="900" src="imgs/1.png">
 `).show()
 
 }
@@ -346,7 +346,7 @@ basicLightbox.create(`
 document.querySelector('.segundaimagen').onclick = () => {
 
 basicLightbox.create(`
-  <img width="1400" height="900" src="imgs/perro.jpg">
+  <img width="1400" height="900" src="imgs/2.png">
 `).show()
 
 }
@@ -354,7 +354,7 @@ basicLightbox.create(`
 document.querySelector('.terceraimagen').onclick = () => {
 
 basicLightbox.create(`
-  <img width="1400" height="900" src="imgs/cactus.jpg">
+  <img width="1400" height="900" src="imgs/3.jpg">
 `).show()
 
 }
@@ -362,7 +362,39 @@ basicLightbox.create(`
 document.querySelector('.cuartaimagen').onclick = () => {
 
 basicLightbox.create(`
-  <img width="1400" height="900" src="imgs/arbolperro.jpeg">
+  <img width="1400" height="900" src="imgs/4.jpg">
+`).show()
+
+}
+
+document.querySelector('.quintaimagen').onclick = () => {
+
+basicLightbox.create(`
+  <img width="1400" height="900" src="imgs/5.jpg">
+`).show()
+
+}
+
+document.querySelector('.sextaimagen').onclick = () => {
+
+basicLightbox.create(`
+  <img width="1400" height="900" src="imgs/6.JPG">
+`).show()
+
+}
+
+document.querySelector('.septimaimagen').onclick = () => {
+
+basicLightbox.create(`
+  <img width="1400" height="900" src="imgs/7.jpg">
+`).show()
+
+}
+
+document.querySelector('.octavaimagen').onclick = () => {
+
+basicLightbox.create(`
+  <img width="1400" height="900" src="imgs/8.jpg">
 `).show()
 
 }
