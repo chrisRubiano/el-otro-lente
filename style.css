@@ -680,13 +680,21 @@ button.rounded-button {
   transform: translate(-50%, -50%);
 }
 
+
 #covervideo {
-  display: flex;
+  display: grid;
+  min-height: 100%;
+  overflow: hidden;
+
 }
 
+
 video {
-  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
+
+
 
 
 @media (min-width:800px) {
