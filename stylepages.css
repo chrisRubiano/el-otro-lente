@@ -195,3 +195,7 @@ table {
     filter: grayscale(0%); 
     opacity: 1;
 }
+
+#disqus_thread {
+  margin: 10rem;
+}
