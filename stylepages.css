@@ -53,6 +53,16 @@ table {
     src: url(fonts/Bergen_Mono/BergenMonoRegular.otf);
 }
 
+@font-face {
+  font-family: OLhelvetica;
+  src: url(fonts/hevelticaneue/Helvetica.ttc);
+}
+
+@font-face {
+  font-family: OLhelveticabold;
+  src: url(fonts/hevelticaneue/HelveticaNeue\ Bold.ttf);
+}
+
 
 .container {
     align-items: center;
@@ -79,13 +89,24 @@ table {
     filter: brightness(.47);
   }
 
+  .autor{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-family: OLhelveticabold;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
   .text{
     width: 60%;
     margin: auto;
     text-align: center;
     align-items: center;
     padding: 10px;
-    font-family: FontOL;
+    font-family: OLhelvetica;
     font-size: 16px;
   }
 
@@ -176,7 +197,7 @@ table {
     opacity: 0.6;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    max-width: 300px;
+    max-width: 250px;
     margin: 20px;
     padding-bottom: 50px;
     max-height: 75px;
@@ -194,8 +215,4 @@ table {
     -o-filter: grayscale(0%);
     filter: grayscale(0%); 
     opacity: 1;
-}
-
-#disqus_thread {
-  margin: 10rem;
 }
