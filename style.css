@@ -532,6 +532,42 @@ button.rounded-button {
 
 /* End Nav Styles */
 
+/*-------------------GALERIA NUEVA---------------*/
+.contenedor {
+  height: 100%;
+  padding: 200px;
+  grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 80px;
+  
+}
+.contenedor div {
+  background-color: #525252;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.contenedor div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.horizontal {
+  grid-column: auto / span 2
+}
+.vertical {
+  grid-row: auto / span 2;
+}
+.grande {
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+}
+
+
+
+
 
 /* KRIS */
 
@@ -702,7 +738,7 @@ video {
     min-width: 800px;
   }
 }
-
+*/
 /* KRIS */
 
 /* ---------------brandbar--------------- */
@@ -710,12 +746,15 @@ video {
   background-color: #ffffff;
   width: 100%;
   display: flex;
+  padding-top: 20px;
 }
+
 .brandbar-top{
   max-width: 950px;
   margin: auto;
   padding:10px 0px 10px 0px;
 }
+
 .row {
   display: flex;
   flex-direction: row;
@@ -727,34 +766,33 @@ video {
 
 @media (max-width: 950px){
   .row{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    max-width: 300px;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  margin-top: 10px;
   }
 }
 
 @media (max-width: 800px){
   .row{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    max-width: 200px;
-    margin-top: 10px;
-    
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  max-width: 200px;
+  margin-top: 10px;
+  
   }
-
   .brandbar img{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
   }
 }
 
@@ -773,9 +811,11 @@ video {
   max-height: 75px;
   
 }
+
 .brand{
   justify-content: center;
 }
+
 .brandbar img:hover{
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
@@ -784,4 +824,3 @@ video {
   filter: grayscale(0%); 
   opacity: 1;
 }
-
