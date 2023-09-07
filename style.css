@@ -543,7 +543,7 @@ button.rounded-button {
   
 }
 .contenedor div {
-  background-color: #525252;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -552,7 +552,7 @@ button.rounded-button {
 .contenedor div img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .horizontal {
   grid-column: auto / span 2

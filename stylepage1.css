@@ -70,6 +70,47 @@ table {
   left: 20px;
   width: 200px;
 }
+/*-------------HORIZONTALES-----------------------------------------------------------------------------------------------------------------------*/
+
+.inner-image-horizontal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  max-width: 700px;
+}
+
+
+@media (max-width: 950px){
+  .inner-image-horizontal {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+      height: auto;
+      max-width: 500px;
+    }
+
+}
+
+@media (max-height: 800px){
+  .inner-image-horizontal {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+      height: auto;
+      max-width: 400px;
+    }
+}
+
+/*--------------VERTICALES------------------------------------------------------------------------------------------------------------------------*/
 
 
 
